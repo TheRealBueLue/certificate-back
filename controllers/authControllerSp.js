@@ -11,7 +11,7 @@ const sendEmail = require('./sendEmail');
 
 const register1Sp = async (req, res) => {
   // const origin = 'https://certificate-generator-en.herokuapp.com';
-  const origin = 'https://certificate-generator-alien.herokuapp.com';
+  const origin = process.env.URL_API;
   const messageMail = `Por favor confirma tu email clicando en el siguiente link: <a href="${origin}/register-sp">Confirma tu Email</a>`;
 
   try {
@@ -47,7 +47,7 @@ const register1Sp = async (req, res) => {
 
 const register2Sp = async (req, res) => {
   // const origin = 'https://certificate-generator-en.herokuapp.com';
-  const origin = 'https://certificate-generator-alien.herokuapp.com';
+  const origin = process.env.URL_API;
   const messageMail = `Por favor confirma tu email clicando en el siguiente link: <a href="${origin}/register-sp">Confirma tu Email</a>`;
 
   try {
@@ -83,7 +83,7 @@ const register2Sp = async (req, res) => {
 
 const register3Sp = async (req, res) => {
   // const origin = 'https://certificate-generator-en.herokuapp.com';
-  const origin = 'https://certificate-generator-alien.herokuapp.com';
+  const origin = process.env.URL_API;
   const messageMail = `Por favor confirma tu email clicando en el siguiente link: <a href="${origin}/register-sp">Confirma tu Email</a>`;
 
   try {
@@ -119,7 +119,7 @@ const register3Sp = async (req, res) => {
 
 const register4Sp = async (req, res) => {
   // const origin = 'https://certificate-generator-en.herokuapp.com';
-  const origin = 'https://certificate-generator-alien.herokuapp.com';
+  const origin = process.env.URL_API;
   const messageMail = `Por favor confirma tu email clicando en el siguiente link: <a href="${origin}/register-sp">Confirma tu Email</a>`;
 
   try {
@@ -155,7 +155,7 @@ const register4Sp = async (req, res) => {
 
 const register5Sp = async (req, res) => {
   // const origin = 'https://certificate-generator-en.herokuapp.com';
-  const origin = 'https://certificate-generator-alien.herokuapp.com';
+  const origin = process.env.URL_API;
   const messageMail = `Por favor confirma tu email clicando en el siguiente link: <a href="${origin}/register-sp">Confirma tu Email</a>`;
 
   try {
@@ -191,7 +191,7 @@ const register5Sp = async (req, res) => {
 
 const register6Sp = async (req, res) => {
   // const origin = 'https://certificate-generator-en.herokuapp.com';
-  const origin = 'https://certificate-generator-alien.herokuapp.com';
+  const origin = process.env.URL_API;
   const messageMail = `Por favor confirma tu email clicando en el siguiente link: <a href="${origin}/register-sp">Confirma tu Email</a>`;
 
   try {
@@ -227,7 +227,7 @@ const register6Sp = async (req, res) => {
 
 const register7Sp = async (req, res) => {
   // const origin = 'https://certificate-generator-en.herokuapp.com';
-  const origin = 'https://certificate-generator-alien.herokuapp.com';
+  const origin = process.env.URL_API;
   const messageMail = `Por favor confirma tu email clicando en el siguiente link: <a href="${origin}/register-sp">Confirma tu Email</a>`;
 
   try {
@@ -263,7 +263,7 @@ const register7Sp = async (req, res) => {
 
 const register8Sp = async (req, res) => {
   // const origin = 'https://certificate-generator-en.herokuapp.com';
-  const origin = 'https://certificate-generator-alien.herokuapp.com';
+  const origin = process.env.URL_API;
   const messageMail = `Por favor confirma tu email clicando en el siguiente link: <a href="${origin}/register-sp">Confirma tu Email</a>`;
 
   try {
@@ -299,7 +299,7 @@ const register8Sp = async (req, res) => {
 
 const register9Sp = async (req, res) => {
   // const origin = 'https://certificate-generator-en.herokuapp.com';
-  const origin = 'https://certificate-generator-alien.herokuapp.com';
+  const origin = process.env.URL_API;
   const messageMail = `Por favor confirma tu email clicando en el siguiente link: <a href="${origin}/register-sp">Confirma tu Email</a>`;
 
   try {
