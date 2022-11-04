@@ -1,3 +1,4 @@
+require('dotenv').config();
 const User = require('../models/User');
 const Course2 = require('../models/RegCourse2');
 const Course3 = require('../models/RegCourse3');
