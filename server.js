@@ -25,9 +25,9 @@ app.use(helmet());
 
 app.use('/api/v1/auth', authRouter);
 
-// app.get('/', (req, res) => {
-//   res.send('My first heroku app');
-// });
+app.get('/', (req, res) => {
+  res.send('My first heroku app');
+});
 
 app.get('/send', sendEmail);
 
